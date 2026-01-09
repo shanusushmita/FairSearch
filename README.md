@@ -54,3 +54,6 @@ Grades prioritize:
 4. Run dashboard:
    streamlit run streamlit_app.py
 
+---
+
+© 2026 Shanu Sushmita. All rights reserved.
