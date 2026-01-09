@@ -1,0 +1,26 @@
+{
+  "neutral_queries": [
+    "Recent advances in Graph Neural Networks",
+    "Transformer architectures for natural language processing",
+    "Applications of reinforcement learning in robotics",
+    "Explainable AI methods for medical diagnosis",
+    "State-of-the-art methods in information retrieval",
+    "Optimization algorithms for deep learning",
+    "Data augmentation techniques for NLP tasks",
+    "Fairness and bias mitigation in machine learning",
+    "Federated learning approaches in distributed AI",
+    "Novel architectures for vision transformers"
+  ],
+  "contradictory_queries": [
+    "Is Prompt Engineering just a passing trend?",
+    "Are large language models reliable for scientific summarization?",
+    "Does reinforcement learning always outperform supervised learning?",
+    "Is deep learning overhyped in computational biology?",
+    "Are pre-trained transformers truly generalizable?",
+    "Do elite institutions dominate research quality?",
+    "Is generative AI safe for autonomous vehicle decision-making?",
+    "Are consensus papers suppressing dissenting perspectives?",
+    "Does MMR always improve fairness in retrieval?",
+    "Are neural embeddings biased against regional institutions?"
+  ]
+}
