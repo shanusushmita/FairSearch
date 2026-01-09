@@ -39,3 +39,18 @@ Grades prioritize:
 - Clear bias analysis
 - Thoughtful mitigation strategies
 - Honest discussion of tradeoffs
+
+## Quick Start
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Preprocess data:
+   python data/preprocess_arxiv.py
+
+3. Index vectors:
+   python src/index_builder.py
+
+4. Run dashboard:
+   streamlit run streamlit_app.py
+
