@@ -54,25 +54,3 @@ Grades prioritize:
 4. Run dashboard:
    streamlit run streamlit_app.py
 
-FairSearch/
-├── data/
-│   ├── raw/                  # Raw arXiv JSON/CSV metadata
-│   ├── processed/            # Preprocessed metadata (filtered, enriched)
-│   └── queries.json          # Starter queries for students
-│
-├── src/                      # Core modules
-│   ├── data_loader.py        # Load, preprocess, enrich arXiv metadata
-│   ├── index_builder.py      # Build vector embeddings & index in ChromaDB/Qdrant
-│   ├── retriever.py          # Query → vector search
-│   ├── rerank.py             # Fairness-aware re-ranking (MMR, Fair-Top-K)
-│   ├── audit.py              # Bias audit and evaluation scripts
-│   ├── metrics.py            # IR metrics (NDCG, MRR) & fairness metrics
-│   └── prompt_utils.py       # Optional: helpers for LLM synthesis / prompt engineering
-│
-├── app/                      # Phase IV: Dashboard
-│   └── streamlit_app.py      # Streamlit interface to compare standard vs FairSearch
-│
-├── run_experiments.py        # Orchestration: run queries, audit, rerank, generate reports
-├── README.md                 # Repo overview, quick start, instructions for students
-├── requirements.txt          # Dependencies
-└── LICENSE
