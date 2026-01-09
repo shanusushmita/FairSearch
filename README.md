@@ -56,4 +56,4 @@ Grades prioritize:
 
 ---
 
-© 2026 Shanu Sushmita. All rights reserved.
+© 2026 Shanu Sushmita. This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
